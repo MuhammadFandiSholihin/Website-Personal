@@ -1,0 +1,121 @@
+html, 
+body {
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper {
+width: 1000px;
+margin: auto;
+padding: 20px 0px 20px 0px;
+}
+/*
+* menu
+*/
+nav {
+    background-color: rgb(31, 41, 41);
+    color:aliceblue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu {
+    width: 75%;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu> ul > li > a {
+    text-decoration: none;
+    color:antiquewhite;
+}
+.Foto {
+    display: flex;
+    align-items: center;
+}
+.Foto > img {
+    height: 75px;
+}
+
+/*
+* hero/ jumbotron
+*/
+header {
+    background: url("../Gambar/Background.jpg");
+    height:100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-opacity {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-jumbotron > h4 {
+    color: rgb(209, 56, 56);
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+.header-jumbotron > h5 {
+    color: greenyellow;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+.header-jumbotron > p {
+    padding: 5px;
+    margin: 25px 5px 25px 5px;
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    color:aquamarine;
+    text-shadow: none;
+
+}
+.button {
+    background-color:  rgb(209, 56, 56);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button-xl {
+    font-size: 1.4rem;
+    padding: 20px;
+}
